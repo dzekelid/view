@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easyc
 x-kinRank: "9"
 x-alexaRank: "181380"
 tags: View
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/easycron/apis.md
 specificationVersion: "0.14"
 apis:

@@ -8,11 +8,27 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: View
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

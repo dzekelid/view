@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kent
 x-kinRank: "7"
 x-alexaRank: "369033"
 tags: View
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/kentico-cloud/apis.md
 specificationVersion: "0.14"
 apis:
@@ -78,6 +78,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/kentico-cloud/assetsexternalidwhichbrewingfitsyou-get-openapi.md
+- name: Kentico Cloud - View an asset by ID
+  x-api-slug: assetsfcbb12e666a3467285d9d502d16b8d9c-get
+  description: "Modifies properties of an asset specified by its internal ID.\r\n\r\nNote:
+    This endpoint only allows updating of asset descriptions and title."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/kentico-cloud/assetsfcbb12e666a3467285d9d502d16b8d9c-get-openapi.md
 - name: Kentico Cloud - View a language variant by language ID
   x-api-slug: itemsexternalid59713variants00000000000000000000000000000000-get
   description: Retrieve content of a variant of a content item. The content item is

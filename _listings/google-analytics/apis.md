@@ -8,11 +8,77 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: View
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Analytics - List Views
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofiles-get
+  description: Lists views (profiles) to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofiles-get-openapi.md
+- name: Google Analytics - Create View
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofiles-post
+  description: Create a new view (profile).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofiles-post-openapi.md
+- name: Google Analytics - Delete View
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-delete
+  description: Deletes a view (profile).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-delete-openapi.md
+- name: Google Analytics - Get View
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-get
+  description: Gets a view (profile) to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-get-openapi.md
+- name: Google Analytics - Update View
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-patch
+  description: Updates an existing view (profile). This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-patch-openapi.md
+- name: Google Analytics - Update View
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-put
+  description: Updates an existing view (profile).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/view/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidprofilesprofileid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.adsense.api.gallery.streamdata.io
